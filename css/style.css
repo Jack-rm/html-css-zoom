@@ -6,6 +6,7 @@
 
 body{
     background-color: black;
+
 }
 
 header{
@@ -21,6 +22,18 @@ header button{
     padding: 5px 8px;
 }
 
+footer{
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+
+footer ul li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+
 #zoom-call{
     display: flex;
     flex-flow: row nowrap;
@@ -33,6 +46,7 @@ header button{
 #flex-container{
     display: flex;
     flex-flow: row wrap;
+    max-width: 1800px;
 }
 
 .flex-item{
@@ -67,8 +81,36 @@ header button{
     font-size: 30px;
 }
 
+
+footer nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+footer .call-actions {
+    padding: 5px 0px 0px 10px;
+
+}
+
+footer .main-actions {
+    padding: 5px 0px 0px 0px;
+}
+
+footer button{
+    background-color: grey;
+    border: none;
+    color: red;
+    padding: 15px 10px;
+    text-align: center;
+}
+
 .lb{
     color: #2ebaff;
+}
+
+.green{
+    color: limegreen;
 }
 
 .flex-item:hover{
